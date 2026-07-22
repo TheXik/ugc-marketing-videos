@@ -33,6 +33,8 @@ Live pricing:
 | Qwen / Seedream V4 (image) | image | $0.02–0.03 | Actor image — rounding error |
 | Wan 2.5 (video) | second | $0.05 | Workhorse |
 | Kling 2.5 Turbo Pro (video) | second | $0.07 | Workhorse |
+| Seedance 2.0 reference-to-video (720p) | second | $0.18 | Multi-reference character/product consistency (see `prompts/07`) |
+| Seedance 2.0 fast / standard (720p) | second | $0.24 / $0.30 | Premium mid-tier; 1080p is $0.68/s ⛔ |
 | **Veo 3 (video)** | second | **$0.40** | ⛔ Premium cinematic — AVOID for cheap-at-scale |
 | Kling AI Avatar / VEED Fabric (talking) | second | $0.05–0.15 | Audio-driven avatar for true talking-head |
 | Kling LipSync | ~5s block | $0.014 | Lip-sync onto existing video (near-free) |
