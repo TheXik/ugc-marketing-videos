@@ -15,6 +15,7 @@ The goal: a repeatable, cheap pipeline to produce and distribute UGC-style short
 | [`case-studies/05-lockin-case-study.md`](case-studies/05-lockin-case-study.md) | Worked example: applying all of this to LockIn (a focus/screen-time app). 6 angles, hook bank, a fully-spec'd reel. |
 | [`prompts/06-ugc-reels-agent-kickoff.md`](prompts/06-ugc-reels-agent-kickoff.md) | The kickoff prompt to run a dedicated "UGC Reels" agent that continues building the machine. |
 | [`prompts/07-seedance-ugc-prompt-anatomy.md`](prompts/07-seedance-ugc-prompt-anatomy.md) | The Shlabu/Arcads Seedance 2.0 workflow, deconstructed into reusable templates: character sheets, frame chaining, the 4-section video mega-prompt, batch automation — on fal at ~$1.50–2.50/video instead of Arcads' $11. |
+| [`content/reel-01-screen-time-confession.md`](content/reel-01-screen-time-confession.md) | **First produced reel.** Complete copy-paste package: script, Higgsfield stills chain, the full Seedance mega-prompt, real-screenshot B-roll list, captions, ship checklist. ~$1.60. |
 
 ## TL;DR — the machine in one paragraph
 
