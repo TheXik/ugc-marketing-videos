@@ -2,7 +2,17 @@
 
 **Status:** ready to produce · **Lane:** AI-actor → paid/test (AI-label it) · **Organic twin:** §9 ($0, no label)
 **Angle:** #1 screen-time reveal, education-led · **CTA:** waitlist (app is NOT on the App Store)
-**Cost:** ~$1.60 (8s Seedance 720p ref-to-video $1.45 + stills + VO) · budget $3–5 with retries
+**Cost — two paths:**
+- **On a Higgsfield subscription/trial: ~$0** for stills + video (covered by credits). Only the voice may cost — see below.
+- **Sustained on our own stack (fal.ai), after the trial:** ~$1.60 (8s Seedance 720p ref-to-video $1.45 + stills ~$0.10 + VO $0.08); budget $3–5 with retries.
+
+Voice either way: your own voice = $0 (only fits the organic twin, §9), ElevenLabs Starter $6/mo for a
+TTS voice matching the AI actor. The ElevenLabs **free tier grants no commercial rights** — don't ship on it.
+
+> ⏳ **Trial strategy:** while Higgsfield access is free, front-load the expensive stage. Character sheets
+> (§4) are permanent, reusable identity assets — generate 2–3 personas and hoard every still. After the
+> trial those same stills drive fal renders at $0.18/s. Also: the trial converts into a paid Plus
+> subscription — set a reminder to cancel if you don't want it.
 
 ## 0. Integrity rules baked into this script
 
