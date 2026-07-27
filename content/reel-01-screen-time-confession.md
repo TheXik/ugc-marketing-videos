@@ -216,3 +216,28 @@ labeled variant, and compare signups, not views.
 - [ ] **Toggle the AI-generated label** before posting
 - [ ] Bio link → locked-in.dev waitlist; verify the waitlist form actually records the signup
 - [ ] Track: signups, not views
+
+---
+
+## ✅ PRODUCED — 2026-07-27
+
+**File:** `content/assets/reel01-lockin-ugc.mp4` · 720×1280 · 15.07s · 4.1 MB
+**Cost:** 68.5 credits (1 character image + 15s Seedance 2.0)
+
+Built with the Higgsfield `ugc-saas-flow`: AI creator (soul_2, variety-rolled identity) →
+Seedance 2.0 talking-head → **real captured screenshots of locked-in.dev** overlaid as
+cards at 2.45s / 4.91s / 7.36s.
+
+**Spoken script as produced** (no fabricated results — every claim is verifiable on the site):
+> "Nine hours a day. On my phone. LockIn blocks them at the OS level. No VPN, no off switch
+> you control. Want one back early? Honestly — your friends decide, and they can say no.
+> Two to four people. Free. Link's in my bio."
+
+**Known defects (accepted, no credits left to re-roll):**
+- A phone with visible screen content sits bottom-left — Seedance ignored the no-screens ban.
+  Small, partly covered once captions are added.
+- The site cards fully cover her face for their 1.4s each (her face sits high in frame).
+
+**Remaining step — captions.** Not burned in. Add them in CapCut (auto-caption, one tap) or
+let TikTok generate them on upload; that's faster than re-rendering and you keep control of
+the styling. **Turn on the AI-generated label when posting.**
