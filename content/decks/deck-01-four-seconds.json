@@ -1,0 +1,48 @@
+{
+  "angle": "The 4-second objection",
+  "needs_live_pact": false,
+  "caption": "Every blocker you've tried had an off switch. That's the whole problem.\n\nLockIn is the one where you don't hold the key — two to four friends do. Not out yet. Early access at locked-in.dev\n\nSend this to the friend who'd actually tell you no.",
+  "slides": [
+    {
+      "kicker": "01 / the objection",
+      "headline": "You deleted the last screen time app in",
+      "accent": "4 seconds."
+    },
+    {
+      "kicker": "02 / read this one first",
+      "headline": "Every blocker you've tried had an off switch.",
+      "body": "And you were always the one holding it."
+    },
+    {
+      "kicker": "03 / the 1am problem",
+      "headline": "Willpower is loudest right after you fail.",
+      "body": "And quietest at 1am, which is the only time it matters."
+    },
+    {
+      "kicker": "04 / why it never works",
+      "headline": "You are negotiating with the person who wants the app.",
+      "body": "You lose that one. Every time."
+    },
+    {
+      "kicker": "05 / the change",
+      "headline": "So take the switch away from yourself.",
+      "accent": "Give it to a friend."
+    },
+    {
+      "kicker": "06 / how",
+      "headline": "Blocked at OS level with Apple Screen Time.",
+      "body": "No VPN profile. No setting you can quietly undo."
+    },
+    {
+      "kicker": "07 / the verdict",
+      "headline": "Want an app back early? You ask. They can say no.",
+      "body": "Two to four people. That is the entire product."
+    },
+    {
+      "kicker": "08 / lockin",
+      "headline": "Not out yet.",
+      "body": "Early access at locked-in.dev",
+      "cta": "Send this to your key-holder"
+    }
+  ]
+}

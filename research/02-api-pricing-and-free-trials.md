@@ -2,6 +2,19 @@
 
 Real cost to generate one AI UGC video, per API, verified against live pricing pages (July 2026).
 
+> ⚠️ **Partially superseded (28 Jul 2026).** A re-verification pass found four material errors below.
+> See [`strategy/08-budget-plan-10eur.md`](../strategy/08-budget-plan-10eur.md) for corrected numbers and
+> the €10/month plan. Summary of what changed:
+> 1. **ElevenLabs Starter $6/mo is gone** — Creator is now **$22/mo for 100K chars** (~239% YoY). Replace with
+>    **Kokoro-82M** (local, Apache-2.0, no watermark) or **Google Cloud TTS WaveNet** (1M chars/mo free).
+>    Voice is now a €0 line item, not a $6 subscription.
+> 2. **fal is cheaper than stated** — the cheapest usable route is €0.40–0.55 per finished 15s reel, not
+>    ~$1.00–1.85. But it is still 2–2.8× over a €0.20/reel budget. (fal.ai/pricing now 429s behind a Vercel
+>    checkpoint; read `https://fal.ai/api/models?keywords=<term>` for vendor-authoritative JSON instead.)
+> 3. **Cheaper hosts exist than fal** — WaveSpeed `wan-2.2/i2v-480p-ultra-fast` at **$0.01/s** and
+>    `infinitetalk-fast` at **$0.015/s flat** are ~4× below fal's floor. 480p only.
+> 4. **FX was wrong** — this file assumed 1 USD = 0.92 EUR. ECB reference on 27 Jul 2026 is **0.878**.
+
 ## Cost per video, by API
 
 | API | Job | Cost/video | Billing | Subscription? |

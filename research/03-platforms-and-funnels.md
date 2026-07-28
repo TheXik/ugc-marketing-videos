@@ -72,3 +72,106 @@ B2B **EdTech lead-gen**: technographic tracking of schools/universities adopting
 Any post that ends in **"comment [word] and I'll send you a link"** is an engagement-bait + affiliate/lead-gen funnel. The "tip" exists to sell you the tool or the workshop, not to give you a strategy. The value is almost always: *a real underlying tool + manufactured urgency + a referral cut.*
 
 **Variant (Shlabu-style):** a genuinely detailed free tutorial where the last 10% ("the prompt bot that does this for you") lives inside a paid skool community, and every tool link is the guru's referral. Higher-quality bait, same funnel. Correct response: extract the technique (we did — `prompts/07`), never pay for the wrapper.
+
+---
+
+# X / Twitter — swept 28 Jul 2026
+
+Method note: `x.com` returns **HTTP 402** to unauthenticated fetches, and every Nitter/xcancel mirror probed
+(8 of them) sits behind a proof-of-work challenge. Verbatim tweet text and real like/reply/view counts below
+were pulled first-hand via **`api.fxtwitter.com`** and **`cdn.syndication.twimg.com`**, which are
+unauthenticated. Only the *discovery* of which posts to look at was second-hand. Reddit was inaccessible (403);
+no Reddit signal in this sweep.
+
+## The 5-second diagnostic: reply-to-like ratio
+
+Organic informational posts run **~0.05–0.15 replies per like.** Comment-bait posts run **0.6–1.7**, because
+the CTA *is* "reply with a word."
+
+| Account | Followers | Ratio | Read |
+|---|---:|---:|---|
+| @mikefutia | 77,968 | 0.64 / 0.65 / 0.72 | bait ⛔ |
+| @georgesttock | 46,757 | 0.94 | bait ⛔ |
+| @mattgittleson | — | 1.40 | bait ⛔ |
+| @JosephKChoi | — | 1.73 | bait — **but the content is genuinely good** |
+| @alexolim_ | — | 0.05 | clean ✅ |
+| @adamlyttleapps | 56,547 | 0.13 | clean ✅ |
+| @ashpreetbedi | — | 0.10 | clean ✅ |
+
+You can screen an account without reading a word of the copy.
+
+## The bait is a copy-paste template, not a tendency
+
+@mikefutia ran the **identical closing CTA verbatim across three separate posts** spanning 21 Apr → 30 May
+2026: *"> Like this post > Comment 'UGC' And I'll send it over (must be following so I can DM)"* —
+79,797 / 38,986 / 37,660 views respectively.
+
+**And the artifact being gated isn't open source and isn't free.** His own post text names the stack: *"Fires
+it to Seedance 2.0 via FAL AI API"* + GPT Image 2.0 + CapCut + Captions — every generation metered. He is
+farming follows to DM a playbook for a paid stack, framed as liberation from "$500–$1,500 per UGC video."
+Meanwhile `charlesdove977/UGC-Factory` (62★, MIT) and `AKCodez/higgsfield-claude-skills` (285★) are the same
+thing, already public and free — which makes the DM-gating pure engagement extraction.
+
+## Second archetype: the fake-free repo ⛔ NEW
+
+More dangerous than comment-bait, because it wears an MIT badge and a 25k-star count.
+
+**`Anil-matcha/Open-Generative-AI` (25,033★)**, promoted by @aiedge_ (75,070 followers) as *"a fully
+open-sourced GitHub repo with 200+ AI models, no content filters, and no subscription fees. Built to replace
+Higgsfield, Freepik, and Krea."*
+
+Reality: a **BYOK JavaScript frontend for MuAPI**, a paid hosted aggregator. README line 3 is a "Powered by
+MuAPI" badge with affiliate UTM tags (`utm_source=github&utm_campaign=open-generative-ai`); all ~20 links are
+UTM-tagged; line 479 requires a muapi.ai access key; line 80 upsells *"MuAPI White Label — plans start at
+$49/mo."* **"No subscription fees" is false in practice.** Same operator network as SamurAIGPT (4,402★, already
+flagged in `research/01` for affiliate-only commits).
+
+**Rule this sweep confirms: star count is not evidence a tool works, or that it is free.**
+
+## The receipts — and they are bad news for automated UGC
+
+Prior research found zero founders publishing real numbers. That was *nearly* right. One exists:
+
+**@adamlyttleapps** (Adam Lyttle, established indie iOS dev, no bait CTA), verbatim:
+> *"Cost: $500 | Views: 131K | Downloads: 100 (best guess) | Trial signups: 8"*
+> …and candidly: *"Most of the budget was exhausted by a new account that seemed to use bots for views."*
+
+That is a **0.076% view→install rate at ~$5/install.** Separately he reports *"Cost per install is usd$4.73…
+CPM is usd$14.90… But I'm flying blind and have nothing to compare to."*
+
+**Compare to the funnel numbers:** @mattgittleson claims a **1.3%** view→download rate — in a comment-bait
+post. That is a **17× gap** between the marketed figure and the one audited by someone with no incentive to
+lie. **Budget against ~0.1%, not ~1%.**
+
+## The pattern that decides the strategy
+
+**Everyone with real receipts pays humans. Everyone automating with AI posts zero receipts.**
+
+- @JosephKChoi: $33k → 60M views → 162k downloads → **$0.13/install**, 75+ creators, full payment schedule
+  published, and the finding that *"top 13% of creators drove 70% of all views."*
+- @alexolim_: *"2B+ views. 25M+ downloads. $3M+ paid out to creators."*
+- @mattgittleson: 350k downloads / 27M views.
+
+After extensive searching, **zero founders posted verifiable installs + cost + views from an automated or
+open-source AI UGC pipeline.** The absence is the finding. Lone on-X contrarian: @kamal_razzak (9,784
+followers) — *"ai ugc does not perform anywhere near as well as normal UGC."*
+
+## Follow / mute
+
+**Follow:** @adamlyttleapps (real audited numbers, admits bot fraud, admits flying blind — best account for an
+indie iOS founder) · @alexolim_ (0.05 ratio, 25M+ downloads of scar tissue) · @JosephKChoi (genuinely detailed
+teardowns — but he *does* run "reply LIST" bait, so follow with eyes open) · @ashpreetbedi (ships real
+Apache-2.0 code and disclaims his own demo speed: *"takes ~5 min end-to-end, video is sped up"* — honesty got
+2,572 views vs the bait posts' 40–80k).
+
+**Mute:** @mikefutia, @georgesttock, @mattgittleson (recycled comment-bait, paid stacks sold as free) ·
+@aiedge_ (MuAPI affiliate repo) · @JulianGoldieSEO (*"This AI Video Generator Just Killed Every UGC Agency (And
+It Costs $9/Month)"*) · the Higgsfield promo cluster @jacobrodri_ / @kritarthmittal / @adxtyahq /
+@socialwithaayan (near-simultaneous launch praise).
+
+## Bottom line
+
+**X contains no free path to synthetic-human UGC.** Every talking-head route — Seedance, Higgsfield, Arcads,
+HeyGen — is metered per generation. The only zero-marginal-cost route that exists is local rendering
+(`heygen-com/hyperframes`, `tsensei/OpenReels` with Kokoro + Pexels). Anyone on X telling you otherwise is
+monetising the gap between those two things.
